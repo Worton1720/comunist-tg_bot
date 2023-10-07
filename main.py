@@ -12,7 +12,7 @@ def F_get_file_path(filename: str) -> str:
         out_path = None
     return out_path
 
-bot = telebot.TeleBot('1841813695:AAGXRF-vRgQcNHJvX8iXPaibhZlqF9KVQfE')
+bot = telebot.TeleBot('Token')
 
 keyboard = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
 
